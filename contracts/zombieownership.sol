@@ -1,8 +1,8 @@
 pragma solidity ^0.4.19;
 
 import "./zombieattack.sol";
-import "./erc721.sol";
-import "./safemath.sol";
+import "openzeppelin-solidity/contracts/token/ERC721/DeprecatedERC721.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract ZombieOwnership is ZombieAttack, ERC721 {
 
